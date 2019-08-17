@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa249f1-c2c4-48bf-b06f-bf8ce9f1a0e9" name="Default Changelist" comment="python自动化项目" />
+    <list default="true" id="4fa249f1-c2c4-48bf-b06f-bf8ce9f1a0e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logs/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="224">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -190,6 +190,21 @@
             <path>
               <item name="ApiTest1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiTest1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiTest1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiTest1" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566023290062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python自动化项目">
+      <created>1566023479717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566023479717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,7 +425,7 @@
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="5" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.43614718" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.32575756" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -697,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="224">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
