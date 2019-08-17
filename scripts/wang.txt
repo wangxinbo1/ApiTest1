@@ -1,0 +1,3 @@
+2019-08-09 15:51:06,207-DEBUG-29-handle_log.py-laowang-日志信息：输出debug信息
+2019-08-09 15:51:06,207-INFO-30-handle_log.py-laowang-日志信息：输出info信息
+2019-08-09 15:55:54,785-ERROR-31-handle_log.py-laowang-日志信息：输出error信息
