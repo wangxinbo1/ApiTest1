@@ -32,10 +32,10 @@ current_time = time.strftime("%Y%m%d_%H%M%S",time.localtime())
 report_filename = os.path.join(REPORT_DIR, (str(current_time) + "report.html"))
 with open(report_filename, "wb") as one_file:
     run2 = HTMLTestRunner(stream=one_file,
-                   title="柠檬班的第一份测试报告",
-                   description="联系html报告生成",
-                   verbosity=1,
-                   tester="老王")
+                          title="柠檬班的第一份测试报告",
+                          description="联系html报告生成",
+                          verbosity=1,
+                          tester="老王")
     run2.run(suite2)
 
 # print(time.time())

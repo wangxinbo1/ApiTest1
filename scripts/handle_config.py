@@ -31,14 +31,15 @@ class DoConfigFile():
 config_read_file = DoConfigFile(CONFIG_FILE_PATH)
 
 if __name__ == "__main__":
-    config1 = DoConfigFile("config1.ini")
-    # config1.get_value("msg", "name")
-    datas = {
-        "msg": {
-            "name": "laowang",
-            "age": '20'
-        }
-    }
-    config1.do_write(datas, "config1.ini")
+    # config1 = DoConfigFile("config1.ini")
+    # # config1.get_value("msg", "name")
+    # datas = {
+    #     "msg": {
+    #         "name": "laowang",
+    #         "age": '20'
+    #     }
+    # }
+    # config1.do_write(datas, "config1.ini")
+    config_read_file.get_value("sql", "host")
     pass
 

@@ -42,7 +42,6 @@ class TestRecharge(unittest.TestCase):
 
         logger.info("\n响应数据为{1}".format(url_new, register.text))
         try:
-            logger.info("\'{0}\'响应数据为{1}".format(one_case["title"], register.text))
             self.assertIn(str(one_case["expected"]), register.text, msg=one_case["title"])
             logger.info("\'{0}\'用例执行成功".format(one_case["title"]))
             result = "True"

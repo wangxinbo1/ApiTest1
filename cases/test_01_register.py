@@ -39,7 +39,6 @@ class TestRegister(unittest.TestCase):
         logger.info("\n请求url为{0}\ndata为{1}".format(url_new, new_data))
         register = self.resp.sendRequests(method=one_case["method"], url=url_new, data=eval(new_data))  # 返回注册响应对象
         try:
-            logger.info("\'{0}\'响应数据为{1}".format(one_case["title"], register.text))
             self.assertEqual(one_case["expected"], register.text, msg=one_case["title"])
             result = "True"
             logger.info("\'{0}\'用例执行成功".format(one_case["title"]))

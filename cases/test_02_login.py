@@ -16,7 +16,7 @@ all_cases = do_excel.get_cases()
 @ddt
 class TestLogin(unittest.TestCase):
     """
-    定义一个测试减法的测试类
+    定义一个测试登录的测试类
     """
 
     @classmethod
@@ -40,7 +40,6 @@ class TestLogin(unittest.TestCase):
         login = self.resp.sendRequests(method=one_case["method"], url=url_new, data=eval(new_data))  # 返回登录响应对象
         logger.info("\n响应数据为{1}".format(url_new, login.text))
         try:
-            logger.info("\'{0}\'响应数据为{1}".format(one_case["title"], login.text))
             self.assertEqual(one_case["expected"], login.text, msg=one_case["title"])
             logger.info("\'{0}\'用例执行成功".format(one_case["title"]))
             result = "True"
@@ -50,8 +49,10 @@ class TestLogin(unittest.TestCase):
             raise err
         finally:
             logger.info("写入结果开始")
+
             do_excel.write_result(row=one_case["case_id"] + 1, column=8, result=result)
             do_excel.write_result(row=one_case["case_id"] + 1, column=7, result=login.text)
+
             logger.info("写入结果结束")
 
 

@@ -1,954 +1,327 @@
-2019-08-12 23:03:24,587-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:03:24,588-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:03:24,984-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13869748012", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:03:25,129-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,133-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,461-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13830824617", "pwd": "123456","regname": ""}
-2019-08-12 23:03:25,506-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,508-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,524-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:03:25,572-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,585-ERROR-45-test_register.py-deep-日志信息: 输入的手机号为空用例执行失败，错误信息为: 输入的手机号为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,941-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "15149621350", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:03:25,986-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:25,987-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:26,004-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:03:26,055-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:26,057-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:03:26,073-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:03:26,073-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:04:01,834-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:04:01,835-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:04:02,174-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "15152914708", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:04:02,287-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:02,289-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:02,613-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13829480361", "pwd": "123456","regname": ""}
-2019-08-12 23:04:02,666-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:02,668-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:02,685-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:04:02,737-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:02,739-ERROR-45-test_register.py-deep-日志信息: 输入的手机号为空用例执行失败，错误信息为: 输入的手机号为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:03,007-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13851932867", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:04:03,055-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:03,057-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:03,073-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:04:03,122-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:03,124-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:04:03,140-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:04:03,140-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:07:29,953-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:07:29,953-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:07:30,266-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "15198270514", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:07:30,380-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:30,383-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:30,670-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13843610982", "pwd": "123456","regname": ""}
-2019-08-12 23:07:30,719-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:30,721-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:30,738-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:07:30,789-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:30,791-ERROR-45-test_register.py-deep-日志信息: 输入的手机号为空用例执行失败，错误信息为: 输入的手机号为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:31,085-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "15108645739", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:07:31,134-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:31,136-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:31,152-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:07:31,202-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:31,204-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:07:31,220-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:07:31,221-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:23:30,478-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:23:30,491-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:23:30,828-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13881675032", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:23:30,942-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:30,945-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,259-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13857019423", "pwd": "123456","regname": ""}
-2019-08-12 23:23:31,310-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,312-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,328-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:23:31,380-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,381-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-12 23:23:31,644-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "18736702159", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:23:31,695-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,708-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,731-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api//member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:23:31,784-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,785-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:23:31,802-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:23:31,803-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:25:46,412-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:25:46,413-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:25:46,780-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15126571304", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:25:46,897-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:46,899-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,328-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815239786", "pwd": "123456","regname": ""}
-2019-08-12 23:25:47,381-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,384-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,402-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:25:47,451-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,452-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-12 23:25:47,737-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18720678493", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:25:47,786-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,788-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,806-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:25:47,859-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,861-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:25:47,881-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:25:47,882-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:30:41,222-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-12 23:30:41,257-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-12 23:30:41,794-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18761872094", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:30:42,001-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,003-ERROR-45-test_register.py-deep-日志信息: 输入合法的电话、密码及注册名用例执行失败，错误信息为: 输入合法的电话、密码及注册名 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,349-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15121436057", "pwd": "123456","regname": ""}
-2019-08-12 23:30:42,438-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,442-ERROR-45-test_register.py-deep-日志信息: 输入的注册名为空用例执行失败，错误信息为: 输入的注册名为空 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,461-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:30:42,515-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,516-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-12 23:30:42,790-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15105712364", "pwd": "", "regname": "wangxin"}
-2019-08-12 23:30:42,878-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,915-ERROR-45-test_register.py-deep-日志信息: 输入的密码为空用例执行失败，错误信息为: 输入的密码为空 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,931-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-12 23:30:42,990-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:42,991-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"参数错误：参数不能为空"} != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-12 23:30:43,026-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-12 23:30:43,026-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 00:28:10,775-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 00:28:10,843-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 00:28:12,265-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15173894206", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 00:28:12,417-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 00:28:12,418-INFO-43-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 00:28:12,714-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13409657341", "pwd": "123456","regname": ""}
-2019-08-13 00:28:12,792-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 00:28:12,793-INFO-43-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 00:28:12,795-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 00:28:12,843-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 00:28:12,843-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 00:28:13,108-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15159768214", "pwd": "", "regname": "wangxin"}
-2019-08-13 00:28:13,155-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 00:28:13,156-INFO-43-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 00:28:13,158-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 00:28:13,220-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 00:28:13,222-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"密码不能为空"} != {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 00:28:13,364-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 00:28:13,365-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:03:01,560-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:03:01,959-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 14:03:02,793-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18737154092", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:03:03,293-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:03:03,294-INFO-43-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 14:03:03,563-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15165231794", "pwd": "123456","regname": ""}
-2019-08-13 14:03:03,641-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:03:03,642-INFO-43-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 14:03:03,644-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:03:03,695-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:03:03,696-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 14:03:05,060-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18702768513", "pwd": "", "regname": "wangxin"}
-2019-08-13 14:03:05,117-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:03:05,118-INFO-43-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:03:05,120-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:03:05,202-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 14:03:05,204-ERROR-45-test_register.py-deep-日志信息: 输入已经注册的手机号用例执行失败，错误信息为: 输入已经注册的手机号 :: {"status":0,"code":"20103","data":null,"msg":"手机号码已被注册"} != {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 14:03:05,312-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 14:03:05,313-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:08:16,936-INFO-34-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:08:16,956-INFO-35-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 14:08:17,242-INFO-40-test_login.py-deep-日志信息: 
+2019-08-19 14:42:09,845-INFO-27-test_05_invest.py-deep-日志信息: ******************************************************
+2019-08-19 14:42:09,845-INFO-28-test_05_invest.py-deep-日志信息: 开始执行用例
+2019-08-19 14:42:09,850-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第1条用例:管理员正常登录
+2019-08-19 14:42:09,851-INFO-43-test_05_invest.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
-2019-08-13 14:08:17,244-ERROR-45-test_login.py-deep-日志信息: 输入合法的电话、密码登录用例执行失败，错误信息为: '{"status":1,"code":"10001","data":null,"msg":"登录成功"}' != '{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}'
-- {"status":1,"code":"10001","data":null,"msg":"登录成功"}
-?           ^          ^^^                      ^^^^
-+ {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
-?           ^         ++ ^                      ^^^^^^^^
- : 输入合法的电话、密码登录
-2019-08-13 14:08:17,245-INFO-48-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:08:17,319-INFO-34-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:08:17,320-INFO-35-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 14:08:17,416-INFO-40-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:08:17,417-INFO-43-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 14:08:17,418-INFO-48-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:08:17,420-INFO-34-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:08:17,421-INFO-35-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 14:08:17,520-INFO-40-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:08:17,520-INFO-43-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:08:17,521-INFO-48-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:08:17,523-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:08:17,523-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 14:08:17,791-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18787340156", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:08:17,925-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:08:17,925-INFO-43-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 14:08:18,205-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15161950724", "pwd": "123456","regname": ""}
-2019-08-13 14:08:18,291-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:08:18,292-INFO-43-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 14:08:18,293-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:08:18,350-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:08:18,350-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 14:08:18,641-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18745239687", "pwd": "", "regname": "wangxin"}
-2019-08-13 14:08:18,693-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:08:18,694-INFO-43-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:08:18,695-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:08:18,763-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 14:08:18,764-INFO-43-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 14:08:18,766-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 14:08:18,767-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:20:46,056-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:20:46,076-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 14:20:46,590-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 14:20:46,591-INFO-42-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 14:20:46,591-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:20:46,690-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:20:46,691-INFO-42-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 14:20:46,692-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:20:46,804-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:20:46,805-INFO-42-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:20:46,805-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:20:46,807-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 14:20:46,808-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:59:49,093-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:59:49,112-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 14:59:49,372-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 14:59:49,373-INFO-42-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 14:59:49,373-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:59:49,468-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:59:49,469-INFO-42-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 14:59:49,470-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:59:49,606-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:59:49,606-INFO-42-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:59:49,607-INFO-47-test_login.py-deep-日志信息: 执行用例结束
-2019-08-13 14:59:49,608-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 14:59:49,609-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 14:59:49,609-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 14:59:49,610-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 14:59:49,862-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15145710392", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:59:50,067-INFO-41-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:59:50,068-INFO-43-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 14:59:50,319-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15162405378", "pwd": "123456","regname": ""}
-2019-08-13 14:59:50,399-INFO-41-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 14:59:50,399-INFO-43-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 14:59:50,400-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:59:50,454-INFO-41-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 14:59:50,454-INFO-43-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 14:59:50,737-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18791836527", "pwd": "", "regname": "wangxin"}
-2019-08-13 14:59:50,796-INFO-41-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 14:59:50,797-INFO-43-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 14:59:50,798-INFO-38-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 14:59:50,876-INFO-41-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 14:59:50,876-INFO-43-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 14:59:50,878-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 14:59:50,879-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 15:10:47,502-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 15:10:47,580-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 15:10:47,647-INFO-38-test_login.py-deep-日志信息: 
+data为{"mobilephone":"15128317095", "pwd":"123456"}
+2019-08-19 14:42:09,948-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:42:09,948-INFO-56-test_05_invest.py-deep-日志信息: '管理员正常登录'用例执行成功
+2019-08-19 14:42:09,949-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:10,100-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:10,100-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第2条用例:加标
+2019-08-19 14:42:10,101-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": 116965,"title": "借款人借款","amount": 1000,"loanRate": 20.0,"loanTerm":6, "loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:42:10,253-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-19 14:42:10,253-INFO-56-test_05_invest.py-deep-日志信息: '加标'用例执行成功
+2019-08-19 14:42:10,253-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:10,385-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:10,386-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第3条用例:管理员审核
+2019-08-19 14:42:10,386-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+data为{"id":64565, "status":4}
+2019-08-19 14:42:10,442-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-19 14:42:10,443-ERROR-59-test_05_invest.py-deep-日志信息: 管理员审核用例执行失败，错误信息为: 管理员审核 :: {"status":1,"code":"10001","data":null,"msg":"审核成功"} != {"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-19 14:42:10,444-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:10,591-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:10,596-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第4条用例:投资人登录
+2019-08-19 14:42:10,596-INFO-43-test_05_invest.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
 data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 15:10:48,147-INFO-40-test_login.py-deep-日志信息: 
+2019-08-19 14:42:10,660-INFO-53-test_05_invest.py-deep-日志信息: 
 响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 15:10:48,147-INFO-43-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 15:10:48,150-INFO-38-test_login.py-deep-日志信息: 
+2019-08-19 14:42:10,660-INFO-56-test_05_invest.py-deep-日志信息: '投资人登录'用例执行成功
+2019-08-19 14:42:10,661-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:10,799-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:10,799-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第5条用例:投资成功
+2019-08-19 14:42:10,799-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": 116965}
+2019-08-19 14:42:10,843-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:42:10,843-INFO-56-test_05_invest.py-deep-日志信息: '投资成功'用例执行成功
+2019-08-19 14:42:10,843-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:10,974-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:10,975-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第6条用例:投资接口中memberId为string
+2019-08-19 14:42:10,976-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": "2415312"}
+2019-08-19 14:42:11,020-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:42:11,021-ERROR-59-test_05_invest.py-deep-日志信息: 投资接口中memberId为string用例执行失败，错误信息为: 投资接口中memberId为string :: {"status":0,"code":"20105","data":null,"msg":"不存在该会员"} != {"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:42:11,021-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:42:11,154-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:42:11,157-INFO-34-test_05_invest.py-deep-日志信息: 执行用例完成
+2019-08-19 14:42:11,157-INFO-35-test_05_invest.py-deep-日志信息: ******************************************************
+2019-08-19 14:43:51,475-INFO-27-test_05_invest.py-deep-日志信息: ******************************************************
+2019-08-19 14:43:51,476-INFO-28-test_05_invest.py-deep-日志信息: 开始执行用例
+2019-08-19 14:43:51,480-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第1条用例:管理员正常登录
+2019-08-19 14:43:51,481-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
+data为{"mobilephone":"15128317095", "pwd":"123456"}
+2019-08-19 14:43:51,584-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:43:51,585-INFO-56-test_05_invest.py-deep-日志信息: '管理员正常登录'用例执行成功
+2019-08-19 14:43:51,585-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:51,720-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:51,721-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第2条用例:加标
+2019-08-19 14:43:51,721-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": 116965,"title": "借款人借款","amount": 1000,"loanRate": 20.0,"loanTerm":6, "loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:43:51,874-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-19 14:43:51,874-INFO-56-test_05_invest.py-deep-日志信息: '加标'用例执行成功
+2019-08-19 14:43:51,875-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:52,018-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:52,019-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第3条用例:管理员审核
+2019-08-19 14:43:52,019-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+data为{"id":64566, "status":4}
+2019-08-19 14:43:52,076-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-19 14:43:52,077-INFO-56-test_05_invest.py-deep-日志信息: '管理员审核'用例执行成功
+2019-08-19 14:43:52,077-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:52,215-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:52,215-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第4条用例:投资人登录
+2019-08-19 14:43:52,216-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
+data为{"mobilephone":"13815094276", "pwd":"123456"}
+2019-08-19 14:43:52,278-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:43:52,278-INFO-56-test_05_invest.py-deep-日志信息: '投资人登录'用例执行成功
+2019-08-19 14:43:52,278-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:52,422-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:52,423-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第5条用例:投资成功
+2019-08-19 14:43:52,423-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": 116965}
+2019-08-19 14:43:52,471-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:43:52,471-INFO-56-test_05_invest.py-deep-日志信息: '投资成功'用例执行成功
+2019-08-19 14:43:52,471-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:52,616-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:52,616-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第6条用例:投资接口中memberId为string
+2019-08-19 14:43:52,617-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": "2415312"}
+2019-08-19 14:43:52,667-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:43:52,668-ERROR-59-test_05_invest.py-deep-日志信息: 投资接口中memberId为string用例执行失败，错误信息为: 投资接口中memberId为string :: {"status":0,"code":"20105","data":null,"msg":"不存在该会员"} != {"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:43:52,668-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:43:52,809-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:43:52,814-INFO-34-test_05_invest.py-deep-日志信息: 执行用例完成
+2019-08-19 14:43:52,814-INFO-35-test_05_invest.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:03,933-INFO-25-test_01_register.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:03,933-INFO-26-test_01_register.py-deep-日志信息: 开始执行用例
+2019-08-19 14:44:03,934-INFO-36-test_01_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
+2019-08-19 14:44:04,171-INFO-39-test_01_register.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
+data为{"mobilephone": "18793705428", "pwd": "123456", "regname": "wangxin"}
+2019-08-19 14:44:04,297-INFO-44-test_01_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
+2019-08-19 14:44:04,298-INFO-50-test_01_register.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:04,450-INFO-53-test_01_register.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:04,450-INFO-36-test_01_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
+2019-08-19 14:44:04,669-INFO-39-test_01_register.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
+data为{"mobilephone": "18781036749", "pwd": "123456","regname": ""}
+2019-08-19 14:44:04,744-INFO-44-test_01_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
+2019-08-19 14:44:04,745-INFO-50-test_01_register.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:04,893-INFO-53-test_01_register.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:04,893-INFO-36-test_01_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
+2019-08-19 14:44:04,894-INFO-39-test_01_register.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
+data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
+2019-08-19 14:44:04,931-INFO-44-test_01_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
+2019-08-19 14:44:04,931-INFO-50-test_01_register.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:05,063-INFO-53-test_01_register.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:05,063-INFO-36-test_01_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
+2019-08-19 14:44:05,286-INFO-39-test_01_register.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
+data为{"mobilephone": "15135726801", "pwd": "", "regname": "wangxin"}
+2019-08-19 14:44:05,325-INFO-44-test_01_register.py-deep-日志信息: '输入的密码为空'用例执行成功
+2019-08-19 14:44:05,325-INFO-50-test_01_register.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:05,467-INFO-53-test_01_register.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:05,467-INFO-36-test_01_register.py-deep-日志信息: 正在执行第5条用例:输入已经注册的手机号
+2019-08-19 14:44:05,467-INFO-39-test_01_register.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
+data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
+2019-08-19 14:44:05,532-INFO-44-test_01_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
+2019-08-19 14:44:05,532-INFO-50-test_01_register.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:05,669-INFO-53-test_01_register.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:05,670-INFO-31-test_01_register.py-deep-日志信息: 执行用例完成
+2019-08-19 14:44:05,670-INFO-32-test_01_register.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:05,670-INFO-25-test_02_login.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:05,670-INFO-26-test_02_login.py-deep-日志信息: 开始执行用例
+2019-08-19 14:44:05,671-INFO-36-test_02_login.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
+2019-08-19 14:44:05,671-INFO-39-test_02_login.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
+data为{"mobilephone":"13815094276", "pwd":"123456"}
+2019-08-19 14:44:05,768-INFO-41-test_02_login.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:44:05,768-INFO-44-test_02_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
+2019-08-19 14:44:05,768-INFO-51-test_02_login.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:05,907-INFO-56-test_02_login.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:05,907-INFO-36-test_02_login.py-deep-日志信息: 正在执行第2条用例:输入的电话为空
+2019-08-19 14:44:05,908-INFO-39-test_02_login.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
 data为{"mobilephone": "", "pwd": "123456"}
-2019-08-13 15:10:48,198-INFO-40-test_login.py-deep-日志信息: 
+2019-08-19 14:44:05,946-INFO-41-test_02_login.py-deep-日志信息: 
 响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 15:10:48,199-INFO-43-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 15:10:48,201-INFO-38-test_login.py-deep-日志信息: 
+2019-08-19 14:44:05,947-INFO-44-test_02_login.py-deep-日志信息: '输入的电话为空'用例执行成功
+2019-08-19 14:44:05,947-INFO-51-test_02_login.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:06,092-INFO-56-test_02_login.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:06,092-INFO-36-test_02_login.py-deep-日志信息: 正在执行第3条用例:输入的密码为空
+2019-08-19 14:44:06,092-INFO-39-test_02_login.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
 data为{"mobilephone": "13815094276", "pwd": ""}
-2019-08-13 15:10:48,253-INFO-40-test_login.py-deep-日志信息: 
+2019-08-19 14:44:06,131-INFO-41-test_02_login.py-deep-日志信息: 
 响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 15:10:48,253-INFO-43-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 15:10:48,258-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 15:10:48,259-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 18:36:43,093-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:36:43,125-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 18:36:43,330-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 18:36:43,331-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:38:28,416-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:38:28,417-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 18:38:28,430-INFO-36-test_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
-2019-08-13 18:38:29,173-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18739720681", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:38:29,381-INFO-42-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:38:29,383-INFO-45-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 18:38:30,237-INFO-36-test_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
-2019-08-13 18:38:31,495-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18720684913", "pwd": "123456","regname": ""}
-2019-08-13 18:38:31,577-INFO-42-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:38:31,578-INFO-45-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 18:38:32,299-INFO-36-test_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
-2019-08-13 18:38:32,300-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:38:32,352-INFO-42-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 18:38:32,352-INFO-45-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 18:38:33,062-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
-2019-08-13 18:38:33,316-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13470398256", "pwd": "", "regname": "wangxin"}
-2019-08-13 18:38:33,376-INFO-42-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 18:38:33,377-INFO-45-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 18:38:34,137-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入已经注册的手机号
-2019-08-13 18:38:34,138-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:38:34,208-INFO-42-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 18:38:34,209-INFO-45-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 18:38:34,929-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 18:38:34,930-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:42:21,212-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:42:21,213-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 18:42:21,225-INFO-36-test_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
-2019-08-13 18:42:21,766-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "18753690127", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:42:21,971-INFO-42-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:42:21,972-INFO-45-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 18:42:23,118-INFO-36-test_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
-2019-08-13 18:42:23,421-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13490162735", "pwd": "123456","regname": ""}
-2019-08-13 18:42:23,502-INFO-42-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:42:23,503-INFO-45-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 18:42:24,610-INFO-36-test_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
-2019-08-13 18:42:24,611-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:42:24,662-INFO-42-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 18:42:24,663-INFO-45-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 18:42:25,497-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
-2019-08-13 18:42:25,956-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13483415069", "pwd": "", "regname": "wangxin"}
-2019-08-13 18:42:26,004-INFO-42-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 18:42:26,005-INFO-45-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 18:42:27,166-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入已经注册的手机号
-2019-08-13 18:42:27,167-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:42:27,237-INFO-42-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 18:42:27,237-INFO-45-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 18:42:28,142-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 18:42:28,142-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:50:46,245-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 18:50:46,288-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 18:50:46,309-INFO-36-test_login.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 18:50:46,310-INFO-39-test_login.py-deep-日志信息: 
+2019-08-19 14:44:06,131-INFO-44-test_02_login.py-deep-日志信息: '输入的密码为空'用例执行成功
+2019-08-19 14:44:06,132-INFO-51-test_02_login.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:06,274-INFO-56-test_02_login.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:06,275-INFO-31-test_02_login.py-deep-日志信息: 执行用例完成
+2019-08-19 14:44:06,275-INFO-32-test_02_login.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:06,275-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:06,275-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
+2019-08-19 14:44:06,276-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
+2019-08-19 14:44:06,276-INFO-40-test_03_recharge.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 18:50:46,598-INFO-41-test_login.py-deep-日志信息: 
+data为{"mobilephone":"15158143296", "pwd":"123456"}
+2019-08-19 14:44:06,379-INFO-43-test_03_recharge.py-deep-日志信息: 
 响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 18:50:46,599-INFO-44-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 18:50:46,599-INFO-49-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:46,808-INFO-36-test_login.py-deep-日志信息: 正在执行第2条用例:输入的电话为空
-2019-08-13 18:50:46,809-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "", "pwd": "123456"}
-2019-08-13 18:50:46,864-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 18:50:46,864-INFO-44-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 18:50:46,878-INFO-49-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:47,236-INFO-36-test_login.py-deep-日志信息: 正在执行第3条用例:输入的密码为空
-2019-08-13 18:50:47,237-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "13815094276", "pwd": ""}
-2019-08-13 18:50:47,294-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 18:50:47,295-INFO-44-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 18:50:47,295-INFO-49-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:47,482-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 18:50:47,483-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 18:50:47,484-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 18:50:47,484-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 18:50:47,485-INFO-36-test_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
-2019-08-13 18:50:47,815-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15189302547", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:50:47,962-INFO-42-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:50:47,963-INFO-45-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 18:50:47,963-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:49,321-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 18:50:49,323-INFO-36-test_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
-2019-08-13 18:50:49,648-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13467238109", "pwd": "123456","regname": ""}
-2019-08-13 18:50:49,734-INFO-42-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 18:50:49,735-INFO-45-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 18:50:49,735-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:50,873-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 18:50:50,874-INFO-36-test_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
-2019-08-13 18:50:50,875-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:50:50,936-INFO-42-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 18:50:50,937-INFO-45-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 18:50:50,937-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:52,051-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 18:50:52,052-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
-2019-08-13 18:50:52,323-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15149816357", "pwd": "", "regname": "wangxin"}
-2019-08-13 18:50:52,374-INFO-42-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 18:50:52,375-INFO-45-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 18:50:52,375-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:53,644-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 18:50:53,646-INFO-36-test_register.py-deep-日志信息: 正在执行第5条用例:输入已经注册的手机号
-2019-08-13 18:50:53,646-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 18:50:53,720-INFO-42-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 18:50:53,720-INFO-45-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 18:50:53,721-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 18:50:55,044-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 18:50:55,045-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 18:50:55,046-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:08,110-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:08,262-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 19:00:08,427-INFO-36-test_login.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:00:08,429-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:00:08,815-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:00:08,816-INFO-43-test_login.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:00:08,816-INFO-45-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:00:08,816-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:10,016-INFO-36-test_login.py-deep-日志信息: 正在执行第2条用例:输入的电话为空
-2019-08-13 19:00:10,017-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "", "pwd": "123456"}
-2019-08-13 19:00:10,067-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:00:10,068-INFO-43-test_login.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:00:10,068-INFO-45-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:00:10,069-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:10,265-INFO-36-test_login.py-deep-日志信息: 正在执行第3条用例:输入的密码为空
-2019-08-13 19:00:10,266-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "13815094276", "pwd": ""}
-2019-08-13 19:00:10,315-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:00:10,316-INFO-43-test_login.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:00:10,316-INFO-45-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 19:00:10,316-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:10,507-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 19:00:10,508-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:10,509-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:10,509-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 19:00:10,511-INFO-36-test_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
-2019-08-13 19:00:10,998-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15159132847", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:00:11,128-INFO-42-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 19:00:11,129-INFO-45-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 19:00:11,129-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:11,382-INFO-36-test_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
-2019-08-13 19:00:11,680-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15124187096", "pwd": "123456","regname": ""}
-2019-08-13 19:00:11,754-INFO-42-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 19:00:11,755-INFO-45-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 19:00:11,756-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:11,930-INFO-36-test_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
-2019-08-13 19:00:11,930-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:00:11,980-INFO-42-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:00:11,981-INFO-45-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 19:00:11,982-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:12,138-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
-2019-08-13 19:00:12,396-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15145632187", "pwd": "", "regname": "wangxin"}
-2019-08-13 19:00:12,445-INFO-42-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:00:12,446-INFO-45-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 19:00:12,447-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:12,617-INFO-36-test_register.py-deep-日志信息: 正在执行第5条用例:输入已经注册的手机号
-2019-08-13 19:00:12,618-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:00:12,683-INFO-42-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 19:00:12,683-INFO-45-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 19:00:12,684-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:12,957-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 19:00:12,958-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:55,958-INFO-25-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:55,959-INFO-26-test_login.py-deep-日志信息: 开始执行用例
-2019-08-13 19:00:55,960-INFO-36-test_login.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:00:55,962-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:00:56,290-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:00:56,291-INFO-43-test_login.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:00:56,291-INFO-45-test_login.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:00:56,294-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:57,639-INFO-55-test_login.py-deep-日志信息: 写入结果结束
-2019-08-13 19:00:57,640-INFO-36-test_login.py-deep-日志信息: 正在执行第2条用例:输入的电话为空
-2019-08-13 19:00:57,641-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "", "pwd": "123456"}
-2019-08-13 19:00:57,753-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:00:57,754-INFO-43-test_login.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:00:57,754-INFO-45-test_login.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:00:57,755-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:58,685-INFO-55-test_login.py-deep-日志信息: 写入结果结束
-2019-08-13 19:00:58,687-INFO-36-test_login.py-deep-日志信息: 正在执行第3条用例:输入的密码为空
-2019-08-13 19:00:58,687-INFO-39-test_login.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "13815094276", "pwd": ""}
-2019-08-13 19:00:58,750-INFO-41-test_login.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:00:58,750-INFO-43-test_login.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:00:58,751-INFO-45-test_login.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 19:00:58,751-INFO-52-test_login.py-deep-日志信息: 写入结果开始
-2019-08-13 19:00:59,615-INFO-55-test_login.py-deep-日志信息: 写入结果结束
-2019-08-13 19:00:59,617-INFO-31-test_login.py-deep-日志信息: 执行用例完成
-2019-08-13 19:00:59,618-INFO-32-test_login.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:59,619-INFO-25-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 19:00:59,619-INFO-26-test_register.py-deep-日志信息: 开始执行用例
-2019-08-13 19:00:59,620-INFO-36-test_register.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码及注册名
-2019-08-13 19:00:59,873-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13476481352", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:00:59,990-INFO-42-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 19:00:59,990-INFO-45-test_register.py-deep-日志信息: '输入合法的电话、密码及注册名'用例执行成功
-2019-08-13 19:00:59,991-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:01:01,121-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 19:01:01,122-INFO-36-test_register.py-deep-日志信息: 正在执行第2条用例:输入的注册名为空
-2019-08-13 19:01:01,442-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15145802713", "pwd": "123456","regname": ""}
-2019-08-13 19:01:01,527-INFO-42-test_register.py-deep-日志信息: '输入的注册名为空'响应数据为{"status":1,"code":"10001","data":null,"msg":"注册成功"}
-2019-08-13 19:01:01,527-INFO-45-test_register.py-deep-日志信息: '输入的注册名为空'用例执行成功
-2019-08-13 19:01:01,528-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:01:02,275-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 19:01:02,276-INFO-36-test_register.py-deep-日志信息: 正在执行第3条用例:输入的手机号为空
-2019-08-13 19:01:02,278-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:01:02,330-INFO-42-test_register.py-deep-日志信息: '输入的手机号为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:01:02,330-INFO-45-test_register.py-deep-日志信息: '输入的手机号为空'用例执行成功
-2019-08-13 19:01:02,331-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:01:03,101-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 19:01:03,102-INFO-36-test_register.py-deep-日志信息: 正在执行第4条用例:输入的密码为空
-2019-08-13 19:01:03,338-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "15169372541", "pwd": "", "regname": "wangxin"}
-2019-08-13 19:01:03,392-INFO-42-test_register.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:01:03,392-INFO-45-test_register.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 19:01:03,393-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:01:04,150-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 19:01:04,151-INFO-36-test_register.py-deep-日志信息: 正在执行第5条用例:输入已经注册的手机号
-2019-08-13 19:01:04,152-INFO-39-test_register.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/register
-data为{"mobilephone": "13815094276", "pwd": "123456", "regname": "wangxin"}
-2019-08-13 19:01:04,223-INFO-42-test_register.py-deep-日志信息: '输入已经注册的手机号'响应数据为{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
-2019-08-13 19:01:04,224-INFO-45-test_register.py-deep-日志信息: '输入已经注册的手机号'用例执行成功
-2019-08-13 19:01:04,224-INFO-51-test_register.py-deep-日志信息: 写入结果开始
-2019-08-13 19:01:04,984-INFO-54-test_register.py-deep-日志信息: 写入结果结束
-2019-08-13 19:01:04,987-INFO-31-test_register.py-deep-日志信息: 执行用例完成
-2019-08-13 19:01:04,988-INFO-32-test_register.py-deep-日志信息: ******************************************************
-2019-08-13 19:22:15,942-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:22:15,963-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:22:15,999-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:22:16,000-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:22:16,248-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:22:16,249-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:22:16,249-INFO-47-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:22:16,249-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:22:17,087-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:22:17,090-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入的电话为空
-2019-08-13 19:22:17,090-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "", "pwd": "123456"}
-2019-08-13 19:22:17,146-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:22:17,147-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:22:17,147-INFO-47-test_03_recharge.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:22:17,149-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:22:18,040-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:22:18,043-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的密码为空
-2019-08-13 19:22:18,043-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone": "13815094276", "pwd": ""}
-2019-08-13 19:22:18,112-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:22:18,112-INFO-45-test_03_recharge.py-deep-日志信息: '输入的密码为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
-2019-08-13 19:22:18,113-INFO-47-test_03_recharge.py-deep-日志信息: '输入的密码为空'用例执行成功
-2019-08-13 19:22:18,113-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:22:18,909-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:22:18,911-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:22:18,912-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:23:37,313-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:23:37,314-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:23:37,325-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:23:37,327-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"${borrow_user_personal}", "pwd":"123456"}
-2019-08-13 19:23:37,513-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
-2019-08-13 19:23:37,513-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
-2019-08-13 19:23:37,515-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、密码登录用例执行失败，错误信息为: 输入合法的电话、密码登录 :: {"status":1,"code":"10001","data":null,"msg":"登录成功"} != {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
-2019-08-13 19:23:37,516-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:23:38,277-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:23:38,400-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:23:38,402-INFO-40-test_03_recharge.py-deep-日志信息: 
+2019-08-19 14:44:06,379-INFO-46-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
+2019-08-19 14:44:06,380-INFO-53-test_03_recharge.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:06,511-INFO-56-test_03_recharge.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:06,512-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
+2019-08-19 14:44:06,512-INFO-40-test_03_recharge.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "${borrow_user_personal}", "amount": 1000}
-2019-08-13 19:23:38,516-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:38,516-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:38,531-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、及充值数量用例执行失败，错误信息为: 输入合法的电话、及充值数量 :: {"status":1,"code":"10001","data":null,"msg":"充值成功"} != {"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:38,533-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:23:39,256-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:23:39,273-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:23:39,273-INFO-40-test_03_recharge.py-deep-日志信息: 
+data为{"mobilephone": "15158143296", "amount": 1000}
+2019-08-19 14:44:06,632-INFO-43-test_03_recharge.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":{"id":116965,"regname":"borrow_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"15158143296","leaveamount":"30000.00","type":"1","regtime":"2019-08-10 13:09:09.0"},"msg":"充值成功"}
+2019-08-19 14:44:06,632-INFO-46-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'用例执行成功
+2019-08-19 14:44:06,632-INFO-53-test_03_recharge.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:06,776-INFO-56-test_03_recharge.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:06,776-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
+2019-08-19 14:44:06,777-INFO-40-test_03_recharge.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
 data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:23:39,379-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:39,380-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:39,382-ERROR-50-test_03_recharge.py-deep-日志信息: 输入的电话为空用例执行失败，错误信息为: 输入的电话为空 :: {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"} != {"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:39,382-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:23:40,294-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:23:40,311-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:23:40,312-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "${borrow_user_personal}", "amount": 1000000.231}
-2019-08-13 19:23:40,418-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:40,418-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:40,419-ERROR-50-test_03_recharge.py-deep-日志信息: 输入的充值金额为1000000.231用例执行失败，错误信息为: 输入的充值金额为1000000.231 :: {"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"} != {"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}
-2019-08-13 19:23:40,423-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:23:41,299-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:23:41,317-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:23:41,318-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:25:31,700-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:25:31,701-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:25:31,720-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:25:31,724-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:25:31,983-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:25:31,984-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:25:31,984-INFO-47-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:25:31,985-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:25:32,230-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:25:32,230-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000}
-2019-08-13 19:25:32,363-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"1000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:25:32,364-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"1000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:25:32,366-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、及充值数量用例执行失败，错误信息为: 输入合法的电话、及充值数量 :: {"status":1,"code":"10001","data":null,"msg":"充值成功"} != {"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"1000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:25:32,366-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:25:32,551-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:25:32,554-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:25:32,609-INFO-43-test_03_recharge.py-deep-日志信息: 
+2019-08-19 14:44:06,813-INFO-43-test_03_recharge.py-deep-日志信息: 
 响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:25:32,610-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:25:32,611-INFO-47-test_03_recharge.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:25:32,611-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:25:32,782-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:25:32,783-INFO-40-test_03_recharge.py-deep-日志信息: 
+2019-08-19 14:44:06,813-INFO-46-test_03_recharge.py-deep-日志信息: '输入的电话为空'用例执行成功
+2019-08-19 14:44:06,813-INFO-53-test_03_recharge.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:06,951-INFO-56-test_03_recharge.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:06,951-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
+2019-08-19 14:44:06,951-INFO-40-test_03_recharge.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000000.231}
-2019-08-13 19:25:32,839-INFO-43-test_03_recharge.py-deep-日志信息: 
+data为{"mobilephone": "15158143296", "amount": 1000000.231}
+2019-08-19 14:44:06,989-INFO-43-test_03_recharge.py-deep-日志信息: 
 响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:25:32,840-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:25:32,840-INFO-47-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'用例执行成功
-2019-08-13 19:25:32,841-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:25:33,033-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:25:33,034-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:29:15,095-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:29:15,159-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:29:15,188-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:29:15,189-INFO-40-test_03_recharge.py-deep-日志信息: 
+2019-08-19 14:44:06,989-INFO-46-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'用例执行成功
+2019-08-19 14:44:06,990-INFO-53-test_03_recharge.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:07,128-INFO-56-test_03_recharge.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:07,129-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
+2019-08-19 14:44:07,129-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:07,129-INFO-25-test_04_add.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:07,129-INFO-26-test_04_add.py-deep-日志信息: 开始执行用例
+2019-08-19 14:44:07,130-INFO-36-test_04_add.py-deep-日志信息: 正在执行第1条用例:正常登录
+2019-08-19 14:44:07,130-INFO-40-test_04_add.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
+data为{"mobilephone":"15128317095", "pwd":"123456"}
+2019-08-19 14:44:07,266-INFO-43-test_04_add.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:44:07,266-INFO-46-test_04_add.py-deep-日志信息: '正常登录'用例执行成功
+2019-08-19 14:44:07,266-INFO-53-test_04_add.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:07,401-INFO-56-test_04_add.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:07,402-INFO-36-test_04_add.py-deep-日志信息: 正在执行第2条用例:加标
+2019-08-19 14:44:07,402-INFO-40-test_04_add.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": 116965,"title": "借款人借款","amount": 10000,"loanRate": 20.0,"loanTerm":6, "loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:44:07,453-INFO-43-test_04_add.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-19 14:44:07,453-INFO-46-test_04_add.py-deep-日志信息: '加标'用例执行成功
+2019-08-19 14:44:07,453-INFO-53-test_04_add.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:07,590-INFO-56-test_04_add.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:07,590-INFO-36-test_04_add.py-deep-日志信息: 正在执行第3条用例:新增项目中memberId不存在
+2019-08-19 14:44:07,590-INFO-40-test_04_add.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": "455","title": "借款人借款","amount": 10000,"loanRate": 20.0,"loanTerm":6,"loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:44:07,630-INFO-43-test_04_add.py-deep-日志信息: 
+响应数据为{"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
+2019-08-19 14:44:07,630-INFO-46-test_04_add.py-deep-日志信息: '新增项目中memberId不存在'用例执行成功
+2019-08-19 14:44:07,630-INFO-53-test_04_add.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:07,762-INFO-56-test_04_add.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:07,762-INFO-36-test_04_add.py-deep-日志信息: 正在执行第4条用例:新增项目中loanDateType为3
+2019-08-19 14:44:07,762-INFO-40-test_04_add.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": 116965,"title": "借款人借款","amount": 10000,"loanRate": 20.0,"loanTerm":6,"loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:44:07,802-INFO-43-test_04_add.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-19 14:44:07,803-INFO-46-test_04_add.py-deep-日志信息: '新增项目中loanDateType为3'用例执行成功
+2019-08-19 14:44:07,803-INFO-53-test_04_add.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:07,946-INFO-56-test_04_add.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:07,946-INFO-31-test_04_add.py-deep-日志信息: 执行用例完成
+2019-08-19 14:44:07,946-INFO-32-test_04_add.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:08,087-INFO-27-test_05_invest.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:08,087-INFO-28-test_05_invest.py-deep-日志信息: 开始执行用例
+2019-08-19 14:44:08,088-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第1条用例:管理员正常登录
+2019-08-19 14:44:08,088-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
+data为{"mobilephone":"15128317095", "pwd":"123456"}
+2019-08-19 14:44:08,198-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2019-08-19 14:44:08,199-INFO-56-test_05_invest.py-deep-日志信息: '管理员正常登录'用例执行成功
+2019-08-19 14:44:08,199-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:08,345-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:08,346-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第2条用例:加标
+2019-08-19 14:44:08,346-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/add
+data为{"memberId": 116965,"title": "借款人借款","amount": 1000,"loanRate": 20.0,"loanTerm":6, "loanDateType": 0,"repaymemtWay": 4,"biddingDays": 1}
+2019-08-19 14:44:08,498-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"加标成功"}
+2019-08-19 14:44:08,498-INFO-56-test_05_invest.py-deep-日志信息: '加标'用例执行成功
+2019-08-19 14:44:08,499-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:08,648-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:08,648-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第3条用例:管理员审核
+2019-08-19 14:44:08,649-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/loan/audit
+data为{"id":64569, "status":4}
+2019-08-19 14:44:08,694-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":null,"msg":"更新状态成功：竞标开始，当前标为竞标中状态"}
+2019-08-19 14:44:08,694-INFO-56-test_05_invest.py-deep-日志信息: '管理员审核'用例执行成功
+2019-08-19 14:44:08,694-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:08,836-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:08,836-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第4条用例:投资人登录
+2019-08-19 14:44:08,837-INFO-43-test_05_invest.py-deep-日志信息: 
 请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
 data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:29:15,451-INFO-43-test_03_recharge.py-deep-日志信息: 
+2019-08-19 14:44:08,906-INFO-53-test_05_invest.py-deep-日志信息: 
 响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:29:15,453-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:29:15,453-INFO-47-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:29:15,454-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:29:16,455-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:29:16,457-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:29:16,458-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000}
-2019-08-13 19:29:16,572-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"2000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:29:16,573-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"2000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:29:16,574-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、及充值数量用例执行失败，错误信息为: 输入合法的电话、及充值数量 :: {"status":1,"code":"10001","data":null,"msg":"充值成功"} != {"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"2000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:29:16,575-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:29:17,366-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:29:17,432-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:29:17,435-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:29:17,482-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:29:17,483-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:29:17,483-INFO-47-test_03_recharge.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:29:17,484-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:29:18,309-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:29:18,311-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:29:18,312-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000000.231}
-2019-08-13 19:29:18,360-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:29:18,360-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:29:18,361-INFO-47-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'用例执行成功
-2019-08-13 19:29:18,361-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:29:19,252-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:29:19,255-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:29:19,255-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:35:37,420-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:35:37,482-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:35:37,559-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:35:37,560-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:35:37,841-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:35:37,842-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:35:37,843-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、密码登录用例执行失败，错误信息为: 输入合法的电话、密码登录 :: 10001 != {"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:35:37,843-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:35:38,991-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:35:39,123-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:35:39,123-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000}
-2019-08-13 19:35:39,242-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"3000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:35:39,243-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"3000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:35:39,244-ERROR-50-test_03_recharge.py-deep-日志信息: 输入合法的电话、及充值数量用例执行失败，错误信息为: 输入合法的电话、及充值数量 :: 10001 != {"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"3000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:35:39,244-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:35:40,065-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:35:40,085-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:35:40,085-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:35:40,133-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:35:40,133-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:35:40,134-ERROR-50-test_03_recharge.py-deep-日志信息: 输入的电话为空用例执行失败，错误信息为: 输入的电话为空 :: 20103 != {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:35:40,134-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:35:40,972-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:35:40,990-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:35:40,991-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000000.231}
-2019-08-13 19:35:41,037-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:35:41,038-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:35:41,039-ERROR-50-test_03_recharge.py-deep-日志信息: 输入的充值金额为1000000.231用例执行失败，错误信息为: 输入的充值金额为1000000.231 :: 20116 != {"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:35:41,039-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:35:41,959-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:35:41,981-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:35:41,982-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:38:19,707-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:38:19,708-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:38:19,719-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:38:19,721-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:38:19,908-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:38:19,909-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:38:19,979-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:38:20,011-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:38:20,012-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000}
-2019-08-13 19:38:20,144-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"4000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:38:20,144-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"4000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:38:20,145-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:38:20,159-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:38:20,160-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:38:20,221-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:38:20,222-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:38:20,223-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:38:20,238-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:38:20,239-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000000.231}
-2019-08-13 19:38:20,288-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:38:20,288-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:38:20,289-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:38:20,305-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:38:20,305-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:40:07,105-INFO-25-test_03_recharge.py-deep-日志信息: ******************************************************
-2019-08-13 19:40:07,106-INFO-26-test_03_recharge.py-deep-日志信息: 开始执行用例
-2019-08-13 19:40:07,118-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第1条用例:输入合法的电话、密码登录
-2019-08-13 19:40:07,119-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/login
-data为{"mobilephone":"13815094276", "pwd":"123456"}
-2019-08-13 19:40:07,308-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:40:07,309-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'响应数据为{"status":1,"code":"10001","data":null,"msg":"登录成功"}
-2019-08-13 19:40:07,309-INFO-47-test_03_recharge.py-deep-日志信息: '输入合法的电话、密码登录'用例执行成功
-2019-08-13 19:40:07,310-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:40:08,064-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:40:08,068-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第2条用例:输入合法的电话、及充值数量
-2019-08-13 19:40:08,069-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000}
-2019-08-13 19:40:08,188-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"5000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:40:08,188-INFO-45-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'响应数据为{"status":1,"code":"10001","data":{"id":116964,"regname":"invest_user_personal","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13815094276","leaveamount":"5000.00","type":"1","regtime":"2019-08-10 13:09:07.0"},"msg":"充值成功"}
-2019-08-13 19:40:08,189-INFO-47-test_03_recharge.py-deep-日志信息: '输入合法的电话、及充值数量'用例执行成功
-2019-08-13 19:40:08,190-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:40:08,917-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:40:08,919-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第3条用例:输入的电话为空
-2019-08-13 19:40:08,920-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "", "amount": 1000}
-2019-08-13 19:40:08,975-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:40:08,976-INFO-45-test_03_recharge.py-deep-日志信息: '输入的电话为空'响应数据为{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
-2019-08-13 19:40:08,977-INFO-47-test_03_recharge.py-deep-日志信息: '输入的电话为空'用例执行成功
-2019-08-13 19:40:08,977-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:40:09,701-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:40:09,703-INFO-36-test_03_recharge.py-deep-日志信息: 正在执行第4条用例:输入的充值金额为1000000.231
-2019-08-13 19:40:09,704-INFO-40-test_03_recharge.py-deep-日志信息: 
-请求url为http://tj.lemonban.com/futureloan/mvc/api/member/recharge
-data为{"mobilephone": "13815094276", "amount": 1000000.231}
-2019-08-13 19:40:09,761-INFO-43-test_03_recharge.py-deep-日志信息: 
-响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:40:09,762-INFO-45-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'响应数据为{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
-2019-08-13 19:40:09,762-INFO-47-test_03_recharge.py-deep-日志信息: '输入的充值金额为1000000.231'用例执行成功
-2019-08-13 19:40:09,763-INFO-54-test_03_recharge.py-deep-日志信息: 写入结果开始
-2019-08-13 19:40:10,557-INFO-57-test_03_recharge.py-deep-日志信息: 写入结果结束
-2019-08-13 19:40:10,559-INFO-31-test_03_recharge.py-deep-日志信息: 执行用例完成
-2019-08-13 19:40:10,559-INFO-32-test_03_recharge.py-deep-日志信息: ******************************************************
+2019-08-19 14:44:08,906-INFO-56-test_05_invest.py-deep-日志信息: '投资人登录'用例执行成功
+2019-08-19 14:44:08,906-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:09,042-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:09,043-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第5条用例:投资成功
+2019-08-19 14:44:09,043-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": 116965}
+2019-08-19 14:44:09,090-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:44:09,090-INFO-56-test_05_invest.py-deep-日志信息: '投资成功'用例执行成功
+2019-08-19 14:44:09,090-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:09,234-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:09,235-INFO-39-test_05_invest.py-deep-日志信息: 正在执行第6条用例:投资接口中memberId为string
+2019-08-19 14:44:09,235-INFO-43-test_05_invest.py-deep-日志信息: 
+请求url为http://tj.lemonban.com/futureloan/mvc/api/invest/getInvestsByMemberId
+data为{"memberId": "2415312"}
+2019-08-19 14:44:09,279-INFO-53-test_05_invest.py-deep-日志信息: 
+响应数据为{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+2019-08-19 14:44:09,280-ERROR-59-test_05_invest.py-deep-日志信息: 投资接口中memberId为string用例执行失败，错误信息为: '{"status":0,"code":"20105","data":null,"msg":"不存在该会员"}' != '{"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}'
+- {"status":0,"code":"20105","data":null,"msg":"不存在该会员"}
++ {"status":1,"code":"10001","data":[],"msg":"获取用户投资列表成功"}
+ : 投资接口中memberId为string
+2019-08-19 14:44:09,280-INFO-63-test_05_invest.py-deep-日志信息: 写入结果开始
+2019-08-19 14:44:09,415-INFO-66-test_05_invest.py-deep-日志信息: 写入结果结束
+2019-08-19 14:44:09,417-INFO-34-test_05_invest.py-deep-日志信息: 执行用例完成
+2019-08-19 14:44:09,417-INFO-35-test_05_invest.py-deep-日志信息: ******************************************************

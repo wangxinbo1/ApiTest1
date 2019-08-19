@@ -50,7 +50,7 @@ class HandleSql:
     def phone_is_exists(self, phone):
         result = False
         sql = "select * from member where MobilePhone = %s"
-        if self.run_sql(sql,args=(phone,)) is not None:
+        if self.run_sql(sql, args=(phone,)) is not None:
             result = True
         return result
 
@@ -63,10 +63,14 @@ class HandleSql:
 
 
 if __name__=="__main__":
-    do_sql = HandleSql()
-    sql = "select * from member where MobilePhone = %s"
-    result = do_sql.run_sql(sql, args=(15921919560,), is_more=True)
-    pass
-    # print(f"{result}\n{type(result)}")
+    # do_sql = HandleSql()
+    # sql = "select * from member where MobilePhone = %s"
+    # result = do_sql.run_sql(sql, args=(15921919560,), is_more=True)
+    # pass
+    # # print(f"{result}\n{type(result)}")
     # print(do_sql.random_generate_phone())
     # print(do_sql.phone_is_exists('15921919560'))
+    do_sql = HandleSql()
+    sql = "select * from member where MobilePhone = 15921919560"
+    result = do_sql.run_sql(sql)
+    pass
