@@ -1,0 +1,75 @@
+import unittest
+import os
+from libs.ddt import ddt, data
+from scripts.handle_excel import HandleExcel
+from scripts.handle_config import config_read_file
+from scripts.constant import DATA_DIR
+from scripts.handle_requests import HandleRequest
+from scripts.handle_log import logger
+from scripts.handle_context import HandleContext
+from scripts.handle_mysql import HandleSql
+
+# 读取excel
+do_excel = HandleExcel(os.path.join(DATA_DIR, config_read_file.get_value("excel", "case_excel")), "invest")
+all_cases = do_excel.get_cases()
+
+
+@ddt
+class TestRecharge(unittest.TestCase):
+    """
+    定义一个测试投资的测试类
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.resp = HandleRequest()
+        cls.sql = HandleSql()
+        logger.info("******************************************************")
+        logger.info("{0}".format("开始执行用例"))
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.resp.close()
+        cls.sql.close_mysql()
+        logger.info("{0}".format("执行用例完成"))
+        logger.info("******************************************************")
+
+    @data(*all_cases)
+    def test_user_login(self, one_case):
+        logger.info("正在执行第{0}条用例:{1}".format(one_case["case_id"], one_case["title"]))
+
+        url_new = config_read_file.get_value("api", "url") + one_case["url"]
+        new_data = HandleContext.invest_paramization(one_case["data"])
+        logger.info("\n请求url为{0}\ndata为{1}".format(url_new, new_data))
+        invest = self.resp.sendRequests(method=one_case["method"], url=url_new, data=eval(new_data))  # 返回投资的响应对象
+
+        if "加标成功" in invest.text:
+            check_sql = one_case["check_sql"]
+            if check_sql:
+                check_sql = HandleContext.invest_paramization(check_sql)
+                mysql_result = self.sql.run_sql(check_sql)
+                setattr(HandleContext, "loan_id", mysql_result.get("Id"))
+
+        logger.info("\n响应数据为{1}".format(url_new, invest.text))
+        try:
+            self.assertEqual(one_case["expected"], invest.text, msg=one_case["title"])
+            logger.info("\'{0}\'用例执行成功".format(one_case["title"]))
+            result = "True"
+        except AssertionError as err:
+            logger.error("{0}用例执行失败，错误信息为: {1}".format(one_case["title"], err))
+            result = "False"
+            raise err
+        finally:
+            logger.info("写入结果开始")
+            do_excel.write_result(row=one_case["case_id"] + 1, column=8, result=result)
+            do_excel.write_result(row=one_case["case_id"] + 1, column=7, result=invest.text)
+            logger.info("写入结果结束")
+
+
+if __name__ == "__main__":
+    unittest.main()
+    pass
+
+
+
+
